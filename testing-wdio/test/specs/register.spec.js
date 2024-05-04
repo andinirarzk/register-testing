@@ -16,13 +16,13 @@ describe('001 - FITUR REGISTRASI', function(){
         await $('input[value="2"]')
         rButton.click()
 
-        const checkBox = await $('i[name="agreement"]');
-        await checkBox.isSelected()
+        // const checkBox = await $('i[name="agreement"]');
+        // await checkBox.isSelected()
 
         await $('button[data-test="daftar-button"]').click()
 
-        const homePageTitle = await $('button[data-test="daftar-button"]')
-		expect(homePageTitle).toHaveText('')
+        const errorMsg = await $('[data-test="error"]')
+		expect(errorMsg).toHaveTextContaining('Harap pastikan untuk cek di bawah ini.')
 
         await browser.pause(2000)
     })
@@ -38,13 +38,14 @@ describe('001 - FITUR REGISTRASI', function(){
         await $('input[value="2"]')
         rButton.click()
 
-        const checkBox = await $('i[name="agreement"]');
-        await checkBox.isSelected()
+        // const checkBox = await $('i[name="agreement"]');
+        // await checkBox.isSelected()
 
         await $('button[data-test="daftar-button"]').click()
 
-        const homePageTitle = await $('button[data-test="daftar-button"]')
-		expect(homePageTitle).toHaveText('')
+        const errorMsg = await $('[data-test="error"]')
+		expect(errorMsg).toHaveTextContaining('Harap pastikan untuk cek di bawah ini.')
+
 
         await browser.pause(2000)
     })
@@ -60,13 +61,13 @@ describe('001 - FITUR REGISTRASI', function(){
         await $('input[value="2"]')
         rButton.click()
 
-        const checkBox = await $('i[name="agreement"]');
-        await checkBox.isSelected()
+        // const checkBox = await $('i[name="agreement"]');
+        // await checkBox.isSelected()
 
         await $('button[data-test="daftar-button"]').click()
 
-        const homePageTitle = await $('button[data-test="daftar-button"]')
-		expect(homePageTitle).toHaveText('')
+        const errorMsg = await $('[data-test="error"]')
+		expect(errorMsg).toHaveTextContaining('Harap pastikan untuk cek di bawah ini.')
 
         await browser.pause(2000)
     })
