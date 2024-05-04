@@ -1,0 +1,49 @@
+// import { browser } from '@wdio/globals'
+// import Page from '../pageobjects/page.js'
+// import { describe } from 'mocha'
+
+// const page = new Page()
+
+// describe('Cek login', function(){
+//     // browser.url('https://www.uniqlo.com/id/id/account/registry')
+//     it ('mengecek alamat email', async function () {
+//         await page.open()
+//         await $('[name="email"]').setValue('dummy@mail.com')
+//         // browser.pause(2000)
+//     })
+    
+//     it ('mengecek password', async function () {
+//         await page.open()
+//         await $('[name="password"]').setValue('coba123')
+//         // browser.pause(2000)
+//     })
+    
+//     it ('mengecek kode pos', async function () {
+//         await page.open()
+//         await $('[name="postalCode"]').setValue('123')
+//     })
+    
+//     it ('mengecek ulang tahun', async function () {
+//         await page.open()
+//         await $('[name="birthday"]').setValue('1924-05-03')
+//     })
+
+//     // browser.pause(2000)
+
+//     // it ('radio button gender', async function () {
+//     //     await page.open()
+//     //     let rButton = await $('[name="gender"]')
+//     //     await $('input[value="2"]')
+//     //     rButton.click()
+//     //     browser.pause(2000)
+//     // })
+
+//     // it ('click daftar', async function () {
+//     //     await browser.url('https://www.uniqlo.com/id/id/account/registry')
+//     //     await page.open()
+//     //     await $('button[data-test="daftar-button"]').click()
+//     //     // await browser.pause(2000)
+//     // })
+// })
+
+
